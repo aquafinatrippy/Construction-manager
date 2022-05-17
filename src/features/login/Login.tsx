@@ -17,6 +17,7 @@ export const Login = () => {
                 <TextField onChange={(e: ChangeEvent<HTMLInputElement>) => dispatch(setUsername(e.target.value))} value={username} id="filled-basic" label="username" variant="filled" />
                 <TextField onChange={(e: ChangeEvent<HTMLInputElement>) => dispatch(setPassword(e.target.value))} value={password} id="filled-basic" label="password" variant="filled" type='password' />
                 <Button variant="contained">Login</Button>
+                <Button variant="text">Register</Button>
             </div>
         </div>
     )

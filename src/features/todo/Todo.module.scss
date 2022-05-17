@@ -1,0 +1,16 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.todoItem {
+    display: flex;
+}
